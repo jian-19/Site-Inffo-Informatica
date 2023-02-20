@@ -10,42 +10,91 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;700&display=swap" rel="stylesheet">
     
 <link rel="stylesheet" href="./assets/css/style.css">
+<link rel="stylesheet" href="./assets/css/information.css">
+<link rel="stylesheet" href="./assets/css/main.css">
 
     <title>Inffo Informática</title>
 </head>
 <body>
     <header class="container">
-        <div class="header">
-            <div class="box">
-                <img src="./assets/img/Logo.png" alt="logo_top" class="logo_top">
-                <div href="" class="button">
-                    <img src="./assets/img/menu 1.png" alt="" class="menu_burguer">
-                
-                    <div class="title_btn">
-                        <a href="" class="acess">ACESSE TODAS AS</a>
-                        <a href="" class="acess_1">CATEGORIAS</a>
-                    </div>
-                    <img src="./assets/img/baixo.png" class="down">
-                </div>   
-                <div href="" class="button -second">
+        <nav class="navigation">
+            <div class="navigation_top">
+                <img src="./assets/img/Logo.png" alt="logo inffo" class="logo">
                     
-                    <img src="./assets/img/Carrinho.png" alt="" class="car_store">
-                        
-                    <div class="title_btn2">
-                        <a href="" class="acess_1">CARRINHO</a>
-                        <a href="" class="acess_2">0 PRODUTOS</a>
+                <div class="nav_bar">
+                    <div class="wrap_option">
+                        <img src="./assets/img/CONTA.png" alt="icon user" class="icon_user">
+                        <p class="title">
+                            <span class="title_account">Minha Conta</span>
+                            <span class="subtitle_account">Entrar/Cadastrar</span>
+                        </p>
                     </div>
-                    <img src="./assets/img/direita.png" class="right">
-                </div> 
-                <div class="share">
-                    <input type="text" placeholder="Digite o que você procura aqui...">
+                    <div class="wrap_option">
+                        <img src="./assets/img/ATENDIMENTO.png" alt="icon atendimento" class="icon_atendimento">
+                        <p class="title">
+                            <span class="title_account">Minha Conta</span>
+                            <span class="subtitle_account">Entrar/Cadastrar</span>
+                        </p>
+                    </div>
+                    <div class="wrap_option">
+                        <img src="./assets/img/favoritos1 1.png" alt="icon favoritos" class="icon_atendimento">
+                        <p class="title">
+                            <span class="title_account">Minha Conta</span>
+                            <span class="subtitle_account">Entrar/Cadastrar</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="button_store">
+                    <img src="./assets/img/Carrinho.png" alt="" class="car_store">
+                    <p class="title_car">
+                        <span class="title_car1">Carrinho</span>
+                        <span class="subtitle_car1">0 Produtos</span>
+                    </p>
+                    <img src="./assets/img/direita.png" alt="" class="icon_right">
                 </div>
             </div>
-        </div>
-
-
+            <div class="navigation_second">
+                <div class="button_store -second">
+                    <img src="./assets/img/menu 1.png" alt="" class="menu_categories">
+                    <p class="title_car">
+                        <span class="title_categories">Acesse todas as</span>
+                        <span class="subtitle_categories">Categorias</span>
+                    </p>
+                    <img src="./assets/img/baixo.png" alt="" class="icon_down">
+                </div>
+                <form class="search-bar" action="">
+                    <input type="text" class="search_1" placeholder=" Digite o que você procura aqui...">
+                    <button class="button_submit" type="submit"><img src="./assets/img/lupa1 1.png"></button>
+                </form>  
+            </div>
+        </nav>
     </header>
+    <main>
+        <p class="title_promotion">
+            OS MELHORES PREÇOS VOCÊ ENCONTRA AQUI !!
+        </p>
+    </main>
+    <footer>
+        <section class="information">
+            <div class="box1">
+                <div class="virtual_service">
+                    <img src="./assets/img/ATENDIMENTO virtual.png" alt="" class="icon_virtual_service">
+                    <p class="time">
+                        <span class="title_virtual">Atendimento loja virtual</span>
+                        <span class="subtitle_virtual">Segunda a Sexta 8h às 12h e das 13:30h às 18h</span>
+                    </p>
+                </div>
+                <span class="separator"></span>
+                <div class="virtual_service -second">
+                    <p class="time">
+                        <span class="title_virtual">sac@inffo.com.br</span>
+                    </p>
+                    <img src="./assets/img/ATENDIMENTO virtual.png" alt="" class="icon_virtual_service">
+                </div>
+            </div>
 
+        </section>
+    </footer>
     
 </body>
 </html>
