@@ -42,14 +42,6 @@
     font-family: "Fira Code";
 }
 
-.l {
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid #E45826;
-    height: 70px;
-    border-radius: 20px;
-    align-items: center;
-}
 
 .title {
     display: flex;
@@ -73,12 +65,30 @@
     border-radius: 10px;
 }
 
+.separator.-second {
+    background-color: antiquewhite;
+    margin-left: 21%;
+
+}
+
 .box2 {
     display: flex;
     width: 100%;
     justify-content: space-between;
     background-color: #E45826;
     border-radius: 20px;
-    margin: 0px 60px;
     padding: 0px 5px;
+    margin: 0px 60px;
+}
+
+.title_virtual.-tree {
+    display: flex;
+    color: antiquewhite;
+    text-align: end;
+    font-size: 20px;
+
+}
+
+.icon_virtual_service.-tree {
+    padding: 20px;
 }
