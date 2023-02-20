@@ -67,7 +67,8 @@
 .separator {
     align-self: center;
     background-color: #E45826;
+    margin-right: 10%;
     width: 5px;
-    height: 90%;
+    height: 80%;
     border-radius: 10px;
 }
