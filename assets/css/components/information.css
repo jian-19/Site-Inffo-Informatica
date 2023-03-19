@@ -94,6 +94,7 @@
 }
 
 .information_new {
+
     background-color: #1E1E1E;
     color: #E45826;
     display: flex;
@@ -163,6 +164,7 @@
     color: #E6D5B8;
     text-align: center;
     width: 100%;
+    padding-top: 5%;
     border-bottom:10px solid #E45826;
     font-family: "Fira Code";
 }
@@ -173,22 +175,25 @@
 }
 
 .trademark_information {
-    padding: 25px 0px;
+    height: 100%;
+    padding: 1% 0%;
     font-size: 12px;
     font-weight: 400;
 }
 
 .powered {
-    width: 100%;
+    display: flex;
+    justify-content: center;
     font-weight: 700;
-    padding-bottom: 1%;
     text-decoration: none;
     color: #E6D5B8;
+    padding-bottom: 1%;
+    padding-top: 5%;
 
 }
 
 .logo_center {
-    padding: 20px 0px;
+    padding: 2% 0%;
 }
 
 .social_media {
