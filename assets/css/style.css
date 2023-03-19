@@ -60,6 +60,10 @@
     cursor: pointer;
 }
 
+.cards_items {
+    border-radius: 10px;
+}
+
 .button_store p {
     display: flex;
     flex-direction: column;

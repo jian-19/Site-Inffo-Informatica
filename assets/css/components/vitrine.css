@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.vitrine {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.cards_items {
+    margin-top: 15%;
+}
+
+.item {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    max-width: 19.7%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.descricao_1 {
+    display: flex;
+    font-family: "Fira Code";
+    font-size: 70%;
+    color: #E6D5B8;
+    font-weight: 700;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: auto;
+}
+
+.free {
+    width: 80%;
+    margin: 0.3rem 2rem;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.6rem;
+    font-weight: 800;
+    border-radius: 0.3rem;
+    background-color: #E45826;
+}
+
+.item-description {
+    font-size: 15px;
+    padding: 0% 5%;
+}
+
+.valores_avista {
+    margin: 0.2rem 0.5rem;
+    font-family: "Fira Code";
+    color: #00a202;
+    padding: 0.2rem 0.4rem;
+    font-size: 110%;
+}
+
+.avista {
+    font-size: 60%;
+}
+
+.divisao-valores {
+    width: 90%;
+    height: 2px;
+    background: #E45826;
+    margin: 0.2rem 0.9rem;
+}
+
+.valores_prazo {
+    margin: 0.2rem 0.5rem;
+    font-family: "Fira Code";
+    color: #E6D5B8;
+    font-size: 110%;
+    padding: 0.2rem 0.4rem;
+    margin-bottom: 20%;
+}
+
+.prazo {
+    color: red;
+}
